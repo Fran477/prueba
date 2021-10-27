@@ -1,0 +1,612 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo img {
+
+    width: 90%;
+    margin: 10px 15px;
+    
+    } 
+.btn_menu img{
+   
+    width: 30px;
+    margin: 0px 10px;
+
+}
+
+.navegador {
+    
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+    box-shadow: black 2px 2px 4px;
+    border-bottom: 2px  rgb(255, 6, 255) solid ;
+}
+
+.navegador ul {
+    
+    background-color:whitesmoke;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+.menu {
+    display: flex;
+}
+
+.navegador li{
+   
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+    list-style: none;
+   
+}
+
+.navegador li:hover {
+    
+    background-color:rgb(255, 6, 255, 0.5);
+  
+}
+
+.navegador {
+    display: none;
+    flex-direction: column;
+}
+
+.navegador.show {
+    display: flex;
+}
+
+.contacto {
+    display: flex;
+    
+}
+
+
+.noticias {
+   margin: 10px 10px;
+   
+}
+.noticia-izquierda-7, .noticia-izquierda-1, .noticia-izquierda-4, .noticia-central-2, .noticia-central-5, .noticia-derecha-3, .noticia-derecha-6, .noticia-derecha-9 { 
+    box-shadow: black 3px 3px 3px; 
+    padding: 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+
+.noticia-izquierda-1 {
+    background-image: url(../images/Noticia_1.jpg);
+    background-size: cover;
+}
+
+.noticia-izquierda-4 {
+    background-image: url(../images/Noticia_4.jpg);
+    background-size: cover;
+}
+
+.noticia-central-2{
+    background-image: url(../images/Noticia_2.jpg);
+    background-size: cover;
+}
+
+.noticia-central-5 {
+    background-image: url(../images/Noticia_5.jpg);
+    background-size: cover;
+}
+
+.noticia-derecha-3 {
+    background-image: url(../images/Noticia_3.jpg);
+    background-size: cover;
+}
+
+.noticia-derecha-6 {
+    background: url(../images/Noticia_6.jpg);
+    background-size: cover;
+}
+
+.noticia-derecha-9 {
+    background: url(../images/Noticia_7.jpg);
+    background-size: cover;
+}
+
+.noticia-izquierda-1 h2, .noticia-central-2 h2, .noticia-derecha-3 h2, .noticia-izquierda-4 h2, .noticia-central-5 h2, .noticia-izquierda-7 h2, .noticia-derecha-6 h2, .noticia-derecha-9 h2{
+    
+    font-family: sans-serif;
+    font-size: 33px;
+    color:white;
+    text-shadow: black 1px 1px 1px;
+    text-align: center;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.noticia-izquierda-1 h2:hover  , .noticia-central-2 h2:hover, .noticia-derecha-3 h2:hover, .noticia-izquierda-4 h2:hover, .noticia-central-5 h2:hover, .noticia-izquierda-7 h2:hover, .noticia-derecha-6 h2:hover, .noticia-derecha-9 h2:hover {
+    
+    color: rgb(102, 109, 102);
+}
+
+body { 
+    
+    background-image:url(../images/fondo.jpg) ;
+
+}
+
+.pie-de-pagina {
+    
+    padding: 30px;
+    background-color: whitesmoke;
+    border-top: 2px solid rgb(255, 6, 255);
+    
+}
+
+footer h4, p{
+    
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+footer p a {
+    text-transform: uppercase;   
+}
+
+footer p a:hover {
+    color:rgb(255, 6, 255);
+}
+
+
+.noticia-izquierda-7 {
+    
+    background-image: url(../images/Noticia_8.jpg);
+    
+}
+
+.noticia-izquierda-7 {
+    font-size: 30px;
+
+}
+
+.juegos-esperados {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+}
+
+.juegos-esperados h1 {
+    text-align: center;
+    margin: 30px 30px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.juegos-esperados p {
+    text-align: justify;
+    font-size: 12px;
+    margin: 15px 20px;
+    font-family: sans-serif;
+
+}
+
+.juegos-esperados h2 {
+    
+    font-size: 18px;
+    margin: 15px 20px;
+    font-family: sans-serif;
+}
+
+.lista {
+    
+    background-color: whitesmoke;
+    width: 100%;
+    height: 480px;
+    list-style-position: inside;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+
+}
+
+.imagen-noticia {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 1%;
+    }
+
+.lista h2 {
+    margin-top: 45px;
+    margin-bottom:  20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lista ol {
+    font-family: sans-serif;
+    margin-left: 50px;
+    font-size: 14px;
+    border-left: black 2px solid;
+    padding-left: 8px;
+}
+
+.lista ol li {
+    margin: 8px 0px;
+ }
+
+
+.contactanos {
+    background-color: whitesmoke;
+    margin: 15px 5px 0px 5px;
+    padding: 20px;
+}
+
+.contactanos h3{
+    padding: 10px 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.contactanos p {
+    padding: 5px 2px;
+    text-align: justify;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+
+.formulario {
+    background-color: whitesmoke;
+    margin: 0px 5px 15px 5px;
+    padding: 1px 0px 30px 50px;
+}
+
+.formulario p {
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 10px 0px;   
+    font-style: normal;
+    
+}
+
+.formulario input{
+    width: 50%;
+    height: 25px;
+}
+
+textarea {
+    width: 90%;
+}
+
+#resultado {
+    color: rgb(255, 6, 255);
+    font-family: sans-serif;
+}
+.img-captcha {
+    margin: 10px 0px;
+    overflow-x: scroll;
+}
+
+.img-captcha img {
+    width: 150px;
+}
+
+#enviar-form {
+   
+    display: block;
+    margin: 20px 0px;
+    width: 100px;
+
+}
+.contenedor-sports {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.noticias-sports {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 10px; 
+}
+
+.noticia-9z h1 {
+    text-align: center;
+    margin: 30px 0px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.noticia-9z h2 {
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.noticia-9z p {
+    text-align: justify;
+    font-size: 12px;
+    margin: 20px 20px;
+    font-family: sans-serif;
+}
+
+.imagen-try {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 1%;
+}
+
+.banner-9z {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 1%;
+}
+
+tbody {
+    color: rgb(0, 0, 0);
+}
+
+thead {
+    
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    font-size: 10px;
+
+}
+
+.contenedor-tabla {
+    overflow-x:scroll;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px)  {
+    .btn_menu {
+        display: none;
+    }
+    .navegador {
+
+        display: flex;
+        list-style: none;
+        width: 100%; 
+        flex-direction: row;
+        margin: 0 35px;      
+    }
+
+    .navegador li {
+       margin: 0px 20px;
+       font-size: 18px;
+    }
+
+    .noticias {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 25px;
+
+    }
+
+    .noticia-izquierda-1, .noticia-izquierda-4, .noticia-central-2, .noticia-central-5, .noticia-derecha-3, .noticia-derecha-6, .noticia-derecha-9 {
+    
+        width: 27%;
+        margin: 10px 0px;
+        padding: 30px; 
+        border-radius: 20px;
+
+    } 
+    
+    .noticia-izquierda-7 {
+        
+        width: 60.5%;
+        margin: 10px 0px;
+        padding: 30px;  
+        border-radius: 20px;
+        background-size: 960px 460px;
+    }
+    
+    .noticia-izquierda-7 {
+        
+        font-size: 30px;
+    
+    }
+
+    .logo img {
+
+        width: 35%;
+        margin: 10px 30px;
+        
+    }
+
+    .noticias-sports {
+        width: 93%;
+    }
+
+    .noticia-9z h1 {
+        font-size: 35px;
+    }
+    
+    .noticia-9z p {
+        font-size: 17px; 
+        margin: 20px 80px; 
+    }
+
+    .noticia-9z h2 {
+        font-size: 25px;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .imagen-try {
+        width: 85%;
+        margin-left: 65px;
+    }
+
+    .tabla-sports {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .contenedor-tabla {
+        display: flex;
+        margin-left: 75px;
+    }
+
+    .banner-9z {
+        width: 85%;
+        margin-left: 82px;
+    }
+
+    .contactanos {
+        margin: 15px 35px 0px 35px;
+        padding: 20px;
+    }
+    
+    .contactanos h3{
+        padding: 10px 30px;
+        font-size: 20px;
+
+    }
+    
+    .contactanos p {
+        padding: 5px 30px;
+        font-size: 16px;
+    }
+
+    .formulario {
+
+        margin: 0px 35px 15px 35px;
+        padding: 1px 0px 30px 50px;
+    }
+    
+    .formulario p {
+        
+        font-size: 16px;
+        margin: 10px 0px;   
+        
+    }
+    
+    .formulario input{
+        
+        width: 20%;
+        height: 25px;
+    }
+
+    textarea {
+        width: 50%;
+    }
+    
+    .img-captcha {
+        display: block;
+        margin: 10px 0px;
+        overflow-x:auto;
+        width: 250px;
+    }
+
+    .img-captcha img{
+
+        width: 250px;
+   }
+
+   .juegos-esperados {
+
+    width: 68%;
+    margin: 20px 5px;
+    }
+
+    .juegos-esperados h1 {
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 47px;
+    }
+
+    .juegos-esperados p {
+    text-align: justify;
+    font-size: 17px;
+    margin: 15px 55px;
+    }
+
+    .juegos-esperados h2 {
+        text-align: justify;
+        font-size: 20px;
+        margin: 15px 55px;
+    }
+
+    .imagen-noticia {
+    
+        margin-left: 40px;
+
+    }
+    
+    .lista {
+        
+        width: 25%;
+        height: 550px;
+        list-style-position: inside;
+        margin: 20px 10px;
+    
+    }
+    
+    .noticias-lista {
+        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .lista h2 {
+        margin-top: 45px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .lista ol {
+        
+        margin-left: 50px;
+        font-size: 16px;
+        padding-left: 8px;
+    }
+    
+    .lista ol li {
+        margin: 8px 0px;
+     }
+    
+     .lista img {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+}
